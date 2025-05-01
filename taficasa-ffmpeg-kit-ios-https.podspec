@@ -2,7 +2,7 @@ require "json"
 
 Pod::Spec.new do |s|
   s.name         = "taficasa-ffmpeg-kit-ios-https"
-  s.version      = "6.0.2"
+  s.version      = "6.0"
   s.summary      = "FFmpeg Kit iOS Https Shared Framework"
   s.description  = "Includes FFmpeg with gmp and gnutls libraries enabled."
   s.homepage     = "https://github.com/taficasa/ffmpeg-kit"
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   # Link to the zip file on your GitHub release
   s.source = {
-    :http => 'https://github.com/taficasa/ffmpeg-kit/releases/download/v6.0.2/ffmpeg-kit-https-6.0-ios-xcframework.zip',
+    :http => 'https://github.com/taficasa/ffmpeg-kit/releases/download/v6.0/ffmpeg-kit-https-6.0-ios-xcframework.zip',
     :type => 'zip'
   }
 

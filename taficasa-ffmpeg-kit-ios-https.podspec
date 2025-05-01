@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   # Link to the zip file on your GitHub release
   s.source = {
-    :http => 'https://github.com/taficasa/ffmpeg-kit/releases/download/v6.0/ffmpeg-kit-https-6.0-ios-xcframework.zip',
+    :http => 'https://github.com/taficasa/ffmpeg-kit/releases/download/v6.0.2/ffmpeg-kit-https-6.0-ios-xcframework.zip',
     :type => 'zip'
   }
 

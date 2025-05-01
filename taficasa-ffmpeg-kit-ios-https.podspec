@@ -14,7 +14,11 @@ Pod::Spec.new do |s|
   s.requires_arc      = true
   s.static_framework  = true
 
-  s.source        = { :git => 'https://github.com/taficasa/ffmpeg-kit.git', :tag => s.version.to_s }
+  # Link to the zip file on your GitHub release
+  s.source = {
+    :http => 'https://github.com/taficasa/ffmpeg-kit/releases/download/v6.0/ffmpeg-kit-https-6.0-ios-xcframework.zip',
+    :type => 'zip'
+  }
 
   s.libraries = [
     "z",
